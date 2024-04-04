@@ -53,6 +53,11 @@ const RBY: {[name: string]: SpeciesData} = {
     bs: {hp: 90, at: 85, df: 100, sp: 85, sl: 125},
     weightkg: 55.4,
   },
+  Balumba: {
+    types: ['Fairy', 'Flying'],
+    bs: {hp: 90, at: 50, df: 30, sp: 120, sl: 100},
+    weightkg: 0.4,
+  },
   Beedrill: {
     types: ['Bug', 'Poison'],
     bs: {hp: 65, at: 80, df: 40, sp: 75, sl: 45},
@@ -388,6 +393,11 @@ const RBY: {[name: string]: SpeciesData} = {
     types: ['Normal'],
     bs: {hp: 90, at: 55, df: 75, sp: 30, sl: 60},
     weightkg: 65.5,
+  },
+  Luxwan: {
+    types: ['Normal', 'Flying'],
+    bs: {hp: 70, at: 105, df: 75, sp: 70, sl: 63},
+    weightkg: 26.7,
   },
   Machamp: {
     types: ['Fighting'],
