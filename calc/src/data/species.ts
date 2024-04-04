@@ -38,6 +38,10 @@ const RBY: {[name: string]: SpeciesData} = {
     bs: {hp: 55, at: 50, df: 45, sp: 120, sl: 135},
     weightkg: 48,
   },
+  Annihilape: {
+    types: ['Fighting', 'Ghost'],
+    bs: {hp: 115, at: 115, df: 80, sp: 90, sl: 50},
+    weightkg: 56,
   Arbok: {types: ['Poison'], bs: {hp: 60, at: 85, df: 69, sp: 80, sl: 65}, weightkg: 65},
   Arcanine: {
     types: ['Fire'],
@@ -307,6 +311,11 @@ const RBY: {[name: string]: SpeciesData} = {
     bs: {hp: 85, at: 73, df: 70, sp: 67, sl: 115},
     weightkg: 75.6,
   },
+  Iguanarch: {
+    types: ['Dragon'],
+    bs: {hp: 102, at: 93, df: 76, sp: 108, sl: 121},
+    weightkg: 141.9,
+  },  
   Ivysaur: {
     types: ['Grass', 'Poison'],
     bs: {hp: 60, at: 62, df: 63, sp: 60, sl: 80},
@@ -432,6 +441,11 @@ const RBY: {[name: string]: SpeciesData} = {
     weightkg: 4.2,
     nfe: true,
   },
+  Melmetal: {
+    types: ['Steel'], 
+    bs: {hp: 135, at: 143, at: 143, df: 143, sp: 34, sl: 65}, 
+    weightkg: 800
+  },
   Metapod: {
     types: ['Bug'],
     bs: {hp: 50, at: 20, df: 55, sp: 30, sl: 25},
@@ -515,6 +529,11 @@ const RBY: {[name: string]: SpeciesData} = {
     bs: {hp: 70, at: 60, df: 125, sp: 55, sl: 115},
     weightkg: 35,
   },
+  Omegadge: {
+    types: ['Steel'],
+    bs: {hp: 101, at: 106, df: 120, sp: 25, sl: 95},
+    weightkg: 374.6
+  },    
   Onix: {
     types: ['Rock', 'Ground'],
     bs: {hp: 35, at: 45, df: 160, sp: 70, sl: 30},
@@ -600,6 +619,11 @@ const RBY: {[name: string]: SpeciesData} = {
     bs: {hp: 60, at: 90, df: 55, sp: 100, sl: 90},
     weightkg: 30,
   },
+  Ramoose: {
+    types: ['Normal', 'Grass'],
+    bs: {hp: 85, at: 110, df: 85, sp: 60, sl: 90},
+    weightkg: 55.7,
+  },
   Rapidash: {types: ['Fire'], bs: {hp: 65, at: 100, df: 70, sp: 105, sl: 80}, weightkg: 95},
   Raticate: {
     types: ['Normal'],
@@ -616,6 +640,7 @@ const RBY: {[name: string]: SpeciesData} = {
     types: ['Ground', 'Rock'],
     bs: {hp: 105, at: 130, df: 120, sp: 40, sl: 45},
     weightkg: 120,
+    nfe: true,
   },
   Rhyhorn: {
     types: ['Ground', 'Rock'],
@@ -625,8 +650,9 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   Rhyperior: {
     types: ['Ground', 'Rock'],
-    bs: {hp: 115, at: 140, df: 130, sp: 50, sl: 55},
+    bs: {hp: 115, at: 140, df: 130, sp: 40, sl: 55},
     weightkg: 282.8,
+  },   
   Sandshrew: {
     types: ['Ground'],
     bs: {hp: 50, at: 75, df: 85, sp: 40, sl: 30},
@@ -640,7 +666,7 @@ const RBY: {[name: string]: SpeciesData} = {
   },
   'Sandy Shocks': {
     types: ['Electric', 'Ground'],
-    bs: {hp: 85, at: 81, df: 97, sp: 121, sl: 101},
+    bs: {hp: 85, at: 81, df: 97, sp: 101, sl: 121},
     weightkg: 60,
   },
   Scyther: {
@@ -705,6 +731,12 @@ const RBY: {[name: string]: SpeciesData} = {
     types: ['Grass'],
     bs: {hp: 65, at: 55, df: 115, sp: 60, sl: 100},
     weightkg: 35,
+    nfe: true,
+  },
+  Tangrowth: {
+    types: ['Grass'],
+    bs: {hp: 110, at: 100, df: 125, sp: 50, sl: 110},
+    weightkg: 128.6,
   },
   Tauros: {
     types: ['Normal'],
@@ -721,6 +753,11 @@ const RBY: {[name: string]: SpeciesData} = {
     types: ['Water', 'Poison'],
     bs: {hp: 80, at: 70, df: 65, sp: 100, sl: 120},
     weightkg: 55,
+  },
+  Trampel: {
+    types: ['Normal', 'Ground'],
+    bs: {hp, 110, at: 100, df: 90, sp: 64, sl: 56},
+    weightkg: 189.1,
   },
   Vaporeon: {
     types: ['Water'],
@@ -798,6 +835,10 @@ const RBY: {[name: string]: SpeciesData} = {
     bs: {hp: 90, at: 90, df: 85, sp: 100, sl: 125},
     weightkg: 52.6,
   },
+  Zapdos-Galar: {
+    types: ['Fighting', 'Flying'],
+    bs: {hp: 90, at: 125, df: 90, sp: 100, sl: 125},
+    weightkg: 128.3
   Zubat: {
     types: ['Poison', 'Flying'],
     bs: {hp: 40, at: 45, df: 35, sp: 55, sl: 40},
