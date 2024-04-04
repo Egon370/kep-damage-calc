@@ -623,6 +623,10 @@ const RBY: {[name: string]: SpeciesData} = {
     weightkg: 115,
     nfe: true,
   },
+  Rhyperior: {
+    types: ['Ground', 'Rock'],
+    bs: {hp: 115, at: 140, df: 130, sp: 50, sl: 55},
+    weightkg: 282.8,
   Sandshrew: {
     types: ['Ground'],
     bs: {hp: 50, at: 75, df: 85, sp: 40, sl: 30},
@@ -633,6 +637,11 @@ const RBY: {[name: string]: SpeciesData} = {
     types: ['Ground'],
     bs: {hp: 75, at: 100, df: 110, sp: 65, sl: 55},
     weightkg: 29.5,
+  },
+  'Sandy Shocks': {
+    types: ['Electric', 'Ground'],
+    bs: {hp: 85, at: 81, df: 97, sp: 121, sl: 101},
+    weightkg: 60,
   },
   Scyther: {
     types: ['Bug', 'Flying'],
