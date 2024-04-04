@@ -60,6 +60,7 @@ export function calculateRBYGSC(
     'Dragon',
     'Dark',
     'Steel',
+    'Fairy',
   ];
 
   let firstDefenderType = defender.types[0];
